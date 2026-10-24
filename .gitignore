@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+.env*
+*.env
+!.env.example
+
+# Encrypted Sessions & Database
+db.json
+db.json*
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.session
+*.session-journal
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Temporary & Editor Files
+*.tmp
+.DS_Store
+.vscode/
+.idea/
